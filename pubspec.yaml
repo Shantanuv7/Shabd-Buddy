@@ -1,0 +1,40 @@
+name: translator_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  translator: ^1.0.3+1   # Official maintained one :contentReference[oaicite:3]{index=3}
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/applogo.png"   
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: PoppinsBold
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+
+    - family: PoppinsReg
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
